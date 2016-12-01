@@ -1,0 +1,42 @@
+/*vt7.css*/
+
+.uusiVuokrausJasen{
+    float:left;
+}
+.vuokraukset{
+    float:left;
+}
+.sisalto{
+    display: block;
+}
+
+.hidden { 
+    display:none; 
+}
+
+/*
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 5px;
+}
+*/
+button, input, select, textarea {
+  border: 2px solid #999;
+  border-radius: 10px;
+  margin-bottom:1em;
+  height:2em;
+}
+
+.has-error{
+    border: 2px solid red;
+}
+
+label{
+   width:10em; 
+   display: inline-block;
+   float:left;
+}
+
+p{
+    margin:0;
+}

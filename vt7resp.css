@@ -1,0 +1,28 @@
+.sisalto{
+    display: flex;
+    flex-direction: column;
+}
+
+.uusiVuokrausJasen {
+  order: 2;
+}
+.vuokraukset {
+  order: 1;
+}
+
+button, input, select, textarea {
+  border: 2px solid #999;
+  border-radius: 10px;
+  margin-bottom:1em;
+  height:2em;
+}
+
+label{
+   width:10em; 
+   display: inline-block;
+   float:left;
+}
+
+p{
+    margin:0;
+}
